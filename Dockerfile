@@ -32,4 +32,5 @@ RUN apt-get update && apt-get install software-properties-common -y && add-apt-r
     apt-get install oracle-java8-installer -y && \
     rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 # -----------------------------------------------------------------------------
-RUN wget https://github.com/skavanagh/KeyBox/releases/download/v2.85.01/keybox-jetty-v2.85_01.tar.gz
+RUN wget https://github.com/skavanagh/KeyBox/releases/download/v2.85.01/keybox-jetty-v2.85_01.tar.gz && \
+    tar zxvf keybox-jetty-v2.85_01.tar.gz

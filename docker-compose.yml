@@ -3,4 +3,5 @@ dev:
   ports:
   - "222:22"
   - "8443:8443"
+  - "9001:9001"
   hostname: keybox

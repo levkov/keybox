@@ -31,3 +31,5 @@ RUN apt-get update && apt-get install software-properties-common -y && add-apt-r
     echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-selections && \
     apt-get install oracle-java8-installer -y && \
     rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
+# -----------------------------------------------------------------------------
+RUN wget https://github.com/skavanagh/KeyBox/releases/download/v2.85.01/keybox-jetty-v2.85_01.tar.gz

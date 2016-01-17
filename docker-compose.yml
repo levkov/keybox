@@ -2,4 +2,5 @@ dev:
   build: .
   ports:
   - "222:22"
+  - "8443:8443"
   hostname: keybox

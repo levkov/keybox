@@ -1,4 +1,4 @@
-dev:
+keybox:
   build: .
   ports:
   - "222:22"
